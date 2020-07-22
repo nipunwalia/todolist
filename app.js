@@ -52,6 +52,6 @@ app.post("/work", function(req, res) {
   res.redirect("/work");
 });
 
-app.listen(3000, function() {
+app.listen(process.env.Port || 3000, function() {
   console.log("server is started at port 3000");
 });
