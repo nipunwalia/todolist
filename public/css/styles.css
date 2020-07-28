@@ -108,9 +108,9 @@ footer {
   p{
     font-size: 40px;
   }
-  /* button{
-    font-size: 50px;
-  } */
+  button{
+    font-size: 40px;
+  }
   h1{
     font-size: 70px;
   }
@@ -122,5 +122,8 @@ footer {
   }
   input[type="text"]{
     width: 693px;
+
+  html{
+    background-image: linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
   }
 }
