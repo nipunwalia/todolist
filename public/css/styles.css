@@ -121,6 +121,11 @@ footer {
     padding: 10px;
   }
   input[type="text"]{
-    width: 693px;
+    width: 693px;}
+
+  body{
+    background-image: none;
+    background-color: #E4E9FD;
+  }
 
 }
