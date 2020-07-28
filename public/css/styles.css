@@ -106,15 +106,21 @@ footer {
     font-size: 40px;
   }
   p{
-    font-size: 30px;
+    font-size: 40px;
   }
-  button{
+  /* button{
     font-size: 50px;
-  }
+  } */
   h1{
     font-size: 70px;
   }
   .box{
     max-width: 800px;
+  }
+  input[type="checkbox"]{
+    padding: 10px;
+  }
+  input[type="text"]{
+    width: 693px;
   }
 }
