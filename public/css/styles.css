@@ -99,3 +99,19 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+@media (max-width:1028px) {
+
+  input[type="text"]{
+    font-size: 40px;
+  }
+  p{
+    font-size: 30px;
+  }
+  button{
+    font-size: 50px;
+  }
+  h1{
+    font-size: 70px;
+  }
+}
