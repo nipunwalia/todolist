@@ -4,13 +4,19 @@
     <h1><%=listTitle%></h1>
   </div>
   <div class="box">
+    <form class="" action="/delete" method="post">
+
     <%for( var i=0; i<nitem.length ; i++){%>
     <div class="item">
-      <input type="checkbox">
-      <p><%=nitem[i]%></p>
+      <input type="checkbox" name="checkbox" value="<%=nitem[i]._id%>" onChange="this.form.submit()">
+
+
+      <p><%=nitem[i].row%></p>
+
+
     </div>
     <%}%>
-
+  </form>
     <form class="item" action="/" method="post">
       <input type="text" name="newItem" placeholder="New Item" autocomplete="off" autofocus>
       <button type="submit" name="list" value="<%=listTitle%>">+</button>
